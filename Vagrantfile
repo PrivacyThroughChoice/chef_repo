@@ -19,7 +19,7 @@ Vagrant.configure("2") do |config|
 
   # This can be set to the host name you wish the guest machine to have. Vagrant
   # will automatically execute the configuration necessary to make this happen.
-  config.vm.hostname = "fscott-thunr-starter"
+  config.vm.hostname = "fscott-ptc-starter"
 
   # Create a forwarded port mapping which allows access to a specific port
   # within the machine from a port on the host machine. In the example below,
@@ -76,8 +76,8 @@ Vagrant.configure("2") do |config|
   # and the path to the validation key (relative to this Vagrantfile).
   #
   # config.vm.provision :chef_client do |chef|
-  #   chef.chef_server_url = "https://api.opscode.com/organizations/thunr"
-  #   chef.validation_client_name = "thunr-validator"
-  #   chef.validation_key_path = ".chef/thunr-validator.pem"
+  #   chef.chef_server_url = "https://api.opscode.com/organizations/ptc"
+  #   chef.validation_client_name = "ptc-validator"
+  #   chef.validation_key_path = ".chef/ptc-validator.pem"
   # end
 end
